@@ -1,0 +1,15 @@
+/*
+ * finger.h
+ *
+ *  Created on: 2024Äê5ÔÂ17ÈÕ
+ *      Author: lenovo
+ */
+
+#ifndef SRC_FINGER_H_
+#define SRC_FINGER_H_
+
+
+extern unsigned char FPM10A_RECEICE_BUFFER[32];
+
+
+#endif /* SRC_FINGER_H_ */

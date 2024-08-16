@@ -1,0 +1,5 @@
+set_property SRC_FILE_INFO {cfile:G:/XilinxPrograms/2024_finger_lhk/2024_finger_lhk.srcs/constrs_1/new/finger_Nexys4DDR.xdc rfile:../../../2024_finger_lhk.srcs/constrs_1/new/finger_Nexys4DDR.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:96 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN C17   IOSTANDARD LVCMOS33 } [get_ports { AS608_rx }]; #IO_L20N_T3_A19_15 Sch=ja[1]
+set_property src_info {type:XDC file:1 line:97 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN D18   IOSTANDARD LVCMOS33 } [get_ports { AS608_tx }]; #IO_L21N_T3_DQS_A18_15 Sch=ja[2]

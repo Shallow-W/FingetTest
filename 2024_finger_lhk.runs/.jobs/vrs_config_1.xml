@@ -1,0 +1,68 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="design_finger_lmb_bram_1_synth_1" LaunchDir="G:/XilinxPrograms/2024_finger/2024_finger.runs/design_finger_lmb_bram_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_finger_xbar_1_synth_1" LaunchDir="G:/XilinxPrograms/2024_finger/2024_finger.runs/design_finger_xbar_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_finger_ilmb_v10_1_synth_1" LaunchDir="G:/XilinxPrograms/2024_finger/2024_finger.runs/design_finger_ilmb_v10_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_finger_dlmb_bram_if_cntlr_1_synth_1" LaunchDir="G:/XilinxPrograms/2024_finger/2024_finger.runs/design_finger_dlmb_bram_if_cntlr_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_finger_ilmb_bram_if_cntlr_1_synth_1" LaunchDir="G:/XilinxPrograms/2024_finger/2024_finger.runs/design_finger_ilmb_bram_if_cntlr_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_finger_microblaze_0_1_synth_1" LaunchDir="G:/XilinxPrograms/2024_finger/2024_finger.runs/design_finger_microblaze_0_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_finger_dlmb_v10_1_synth_1" LaunchDir="G:/XilinxPrograms/2024_finger/2024_finger.runs/design_finger_dlmb_v10_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="design_finger_ilmb_v10_1_synth_1"/>
+	</Run>
+	<Run Id="design_finger_axi_gpio_1_0_synth_1" LaunchDir="G:/XilinxPrograms/2024_finger/2024_finger.runs/design_finger_axi_gpio_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_finger_mdm_1_1_synth_1" LaunchDir="G:/XilinxPrograms/2024_finger/2024_finger.runs/design_finger_mdm_1_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_finger_rst_clk_wiz_1_100M_1_synth_1" LaunchDir="G:/XilinxPrograms/2024_finger/2024_finger.runs/design_finger_rst_clk_wiz_1_100M_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_finger_axi_uartlite_0_1_synth_1" LaunchDir="G:/XilinxPrograms/2024_finger/2024_finger.runs/design_finger_axi_uartlite_0_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_finger_axi_gpio_0_0_synth_1" LaunchDir="G:/XilinxPrograms/2024_finger/2024_finger.runs/design_finger_axi_gpio_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_finger_clk_wiz_1_1_synth_1" LaunchDir="G:/XilinxPrograms/2024_finger/2024_finger.runs/design_finger_clk_wiz_1_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_finger_microblaze_0_axi_intc_0_synth_1" LaunchDir="G:/XilinxPrograms/2024_finger/2024_finger.runs/design_finger_microblaze_0_axi_intc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_finger_axi_timer_0_0_synth_1" LaunchDir="G:/XilinxPrograms/2024_finger/2024_finger.runs/design_finger_axi_timer_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_finger_axi_gpio_2_0_synth_1" LaunchDir="G:/XilinxPrograms/2024_finger/2024_finger.runs/design_finger_axi_gpio_2_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_finger_axi_uartlite_1_0_synth_1" LaunchDir="G:/XilinxPrograms/2024_finger/2024_finger.runs/design_finger_axi_uartlite_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_finger_auto_pc_0_synth_1" LaunchDir="G:/XilinxPrograms/2024_finger/2024_finger.runs/design_finger_auto_pc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="G:/XilinxPrograms/2024_finger/2024_finger.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="design_finger_lmb_bram_1_synth_1"/>
+		<Parent Id="design_finger_xbar_1_synth_1"/>
+		<Parent Id="design_finger_ilmb_v10_1_synth_1"/>
+		<Parent Id="design_finger_dlmb_bram_if_cntlr_1_synth_1"/>
+		<Parent Id="design_finger_ilmb_bram_if_cntlr_1_synth_1"/>
+		<Parent Id="design_finger_microblaze_0_1_synth_1"/>
+		<Parent Id="design_finger_dlmb_v10_1_synth_1"/>
+		<Parent Id="design_finger_axi_gpio_1_0_synth_1"/>
+		<Parent Id="design_finger_mdm_1_1_synth_1"/>
+		<Parent Id="design_finger_rst_clk_wiz_1_100M_1_synth_1"/>
+		<Parent Id="design_finger_axi_uartlite_0_1_synth_1"/>
+		<Parent Id="design_finger_axi_gpio_0_0_synth_1"/>
+		<Parent Id="design_finger_clk_wiz_1_1_synth_1"/>
+		<Parent Id="design_finger_microblaze_0_axi_intc_0_synth_1"/>
+		<Parent Id="design_finger_axi_timer_0_0_synth_1"/>
+		<Parent Id="design_finger_axi_gpio_2_0_synth_1"/>
+		<Parent Id="design_finger_axi_uartlite_1_0_synth_1"/>
+		<Parent Id="design_finger_auto_pc_0_synth_1"/>
+	</Run>
+	<Run Id="impl_1" LaunchDir="G:/XilinxPrograms/2024_finger/2024_finger.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="synth_1"/>
+		<Parent Id="design_finger_lmb_bram_1_synth_1"/>
+		<Parent Id="design_finger_xbar_1_synth_1"/>
+		<Parent Id="design_finger_ilmb_v10_1_synth_1"/>
+		<Parent Id="design_finger_dlmb_bram_if_cntlr_1_synth_1"/>
+		<Parent Id="design_finger_ilmb_bram_if_cntlr_1_synth_1"/>
+		<Parent Id="design_finger_microblaze_0_1_synth_1"/>
+		<Parent Id="design_finger_dlmb_v10_1_synth_1"/>
+		<Parent Id="design_finger_axi_gpio_1_0_synth_1"/>
+		<Parent Id="design_finger_mdm_1_1_synth_1"/>
+		<Parent Id="design_finger_rst_clk_wiz_1_100M_1_synth_1"/>
+		<Parent Id="design_finger_axi_uartlite_0_1_synth_1"/>
+		<Parent Id="design_finger_axi_gpio_0_0_synth_1"/>
+		<Parent Id="design_finger_clk_wiz_1_1_synth_1"/>
+		<Parent Id="design_finger_microblaze_0_axi_intc_0_synth_1"/>
+		<Parent Id="design_finger_axi_timer_0_0_synth_1"/>
+		<Parent Id="design_finger_axi_gpio_2_0_synth_1"/>
+		<Parent Id="design_finger_axi_uartlite_1_0_synth_1"/>
+		<Parent Id="design_finger_auto_pc_0_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+

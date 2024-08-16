@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# updatemem v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# 
+# Start of session at: Fri May 17 11:48:37 2024
+# Process ID: 3020
+# Current directory: g:/XilinxPrograms/2024_finger
+# Command line: updatemem.exe -mode batch -source F:/Xilinx/SDK/2018.3/scripts/updatemem/main.tcl -notrace -tclargs -meminfo G:/XilinxPrograms/2024_finger/2024_finger.sdk/design_finger_wrapper_hw_platform_0/design_finger_wrapper.mmi -data F:/Xilinx/SDK/2018.3/data/embeddedsw/lib/microblaze/mb_bootloop_le.elf -proc design_finger_i/microblaze_0 -bit G:/XilinxPrograms/2024_finger/2024_finger.sdk/design_finger_wrapper_hw_platform_0/design_finger_wrapper.bit -out G:/XilinxPrograms/2024_finger/2024_finger.sdk/design_finger_wrapper_hw_platform_0/download.bit -force
+# Log file: g:/XilinxPrograms/2024_finger/updatemem.log
+# Journal file: g:/XilinxPrograms/2024_finger\updatemem.jou
+#-----------------------------------------------------------
+source F:/Xilinx/SDK/2018.3/scripts/updatemem/main.tcl -notrace

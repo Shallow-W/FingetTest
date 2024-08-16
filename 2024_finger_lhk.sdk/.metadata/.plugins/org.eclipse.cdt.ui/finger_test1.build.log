@@ -1,0 +1,21 @@
+20:03:21 **** Auto Build of configuration Debug for project finger_test1 ****
+make all 
+'Building file: ../src/main.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/main.o" -I../../HELLO_bsp/microblaze_0/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: finger_test1.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../HELLO_bsp/microblaze_0/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "finger_test1.elf"  ./src/finger.o ./src/main.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: finger_test1.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size finger_test1.elf  |tee "finger_test1.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   9576	    392	   3184	  13152	   3360	finger_test1.elf
+'Finished building: finger_test1.elf.size'
+' '
+
+20:03:21 Build Finished (took 875ms)
+
